@@ -1,0 +1,144 @@
+body{
+  background-color: #fffafb;
+}
+
+h1{
+  font-size: 30px;
+  font-style: Roboto;
+  font-weight: lighter;
+  color: #5d5a5b;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #d50045;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  font-style: Roboto;
+  color: #5d5a5b;
+}
+
+h4{
+  font-size: 15px;
+  color: #d50045;
+  font-style: Roboto;
+  font-weight: lighter;
+}
+
+p{
+  font-size: 15px;
+  color: #595856;
+  font-style: Roboto;
+  font-weight: lighter;
+}
+
+ul{
+  font-size: 15px;
+  color: #595856;
+  font-style: Roboto;
+  font-weight: lighter;
+}
+
+ol{
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar{
+  font-size: 20px;
+  font-style: Roboto;
+  color: #5d5a5b;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar ol{
+  display: flex;
+}
+
+.navbar ol li{
+  margin-left: 10px;
+}
+
+.container1{
+  display:flex;
+  align-items: flex-start;
+}
+
+.container2{
+  display:flex;
+  align-items: flex-start;
+}
+
+.container3{
+  display:flex;
+  align-items: flex-start;
+}
+
+.container1 div, .container2 div, .container3 div{
+  border: 0.5px #f1f1f1 solid;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.box1{
+  flex:1;
+  order: 2;
+  background-color: #ffcede;
+  border-radius: 20px;
+}
+
+.box2{
+  flex:3;
+  order: 1;
+}
+
+
+.box3{
+  flex:3;
+  order: 1;
+}
+
+.box4{
+  flex:1;
+  order: 1;
+}
+
+.box5{
+  flex:2;
+}
+
+.box6{
+  flex:1;
+}
+
+.box7{
+  flex:2;
+}
+
+@media (orientation: portrait){
+  h1{
+    color: #d50045;
+    font-size: 20px;
+  }
+  h2, h3{
+    font-size: 15px;
+  }
+  h4, p, ul{
+    font-size: 12px;
+  }
+}
